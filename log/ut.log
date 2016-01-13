@@ -1,8 +1,27 @@
-[13:18:43] Locale en_US.UTF-8
-[20160012 13:18:43] computer id: 112F07D02A813FE586BE6E6D6004E76D418DC511
-[20160012 13:18:43] total physical memory 536870912 max disk cache 33554432
-[20160012 13:18:43] Using IP address 104.236.192.93
-[20160012 13:18:43] IPv6 is installed
-[20160012 13:18:47] File not found during integrity check: /root/uTorrent_Server//webcache.dat
-[20160012 13:18:47] File not found during integrity check: /root/uTorrent_Server//webcache.dat.new
-[20160012 13:18:47] File not found during integrity check: /root/uTorrent_Server//webcache.dat.old
+[10:03:21] Locale en_US.UTF-8
+[10:03:21] File not found during integrity check: /root/uTorrent_Server/settings.dat
+[10:03:21] File not found during integrity check: /root/uTorrent_Server/settings.dat.new
+[10:03:21] File not found during integrity check: /root/uTorrent_Server/settings.dat.old
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//dht_feed.dat
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//dht_feed.dat.new
+[20160013 10:03:21] The file '/root/uTorrent_Server//dht_feed.dat' was damaged/missing. It has been recovered.
+[20160013 10:03:21] computer id: 112F07D02A813FE586BE6E6D6004E76D418DC511
+[20160013 10:03:21] total physical memory 536870912 max disk cache 33554432
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//dht.dat
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//dht.dat.new
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//dht.dat.old
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//rss.dat
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//rss.dat.new
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//rss.dat.old
+[20160013 10:03:21] Using IP address 104.236.192.93
+[20160013 10:03:21] IPv6 is installed
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//resume.dat
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//resume.dat.new
+[20160013 10:03:21] File not found during integrity check: /root/uTorrent_Server//resume.dat.old
+[20160013 10:03:32] File not found during integrity check: /root/uTorrent_Server//webcache.dat
+[20160013 10:03:32] File not found during integrity check: /root/uTorrent_Server//webcache.dat.new
+[20160013 10:03:32] File not found during integrity check: /root/uTorrent_Server//webcache.dat.old
+[20160013 10:05:50] ReadFile error: Adele-Hello.mp3:4718592:4224:4224:3
+[20160013 10:33:21] File not found during integrity check: /root/uTorrent_Server//settings.dat
+[20160013 10:33:21] File not found during integrity check: /root/uTorrent_Server//settings.dat.new
+[20160013 10:33:21] File not found during integrity check: /root/uTorrent_Server//settings.dat.old

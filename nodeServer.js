@@ -8,7 +8,11 @@ var app = express();
 
 app.use(express.static(__dirname + "/public"));
 
-app.get('/getFileList', function(req, res){
+app.get('/uTorrent', function (req, res){
+	res.redirect('http://sayandas.xyz:8080/gui');
+});
+
+app.get('/uTorrent/getFileList', function(req, res){
 	var fl = fs.readdirSync(__dirname + "/data");
 
 	for(var i =0; i<fl.length; i++){
@@ -27,7 +31,7 @@ app.get('/getFileList', function(req, res){
 });
 
 
-app.get('/downloadFile', function (req, res){
+app.get('/uTorrent/downloadFile', function (req, res){
 	var q = req.query;
 	res.download(__dirname + "/data/" + q.file, q.file, function (err) {
 		if(err)	console.log(err);
@@ -35,7 +39,7 @@ app.get('/downloadFile', function (req, res){
 
 });
 
-app.get('/deleteFile', function (req, res){
+app.get('/uTorrent/deleteFile', function (req, res){
 	var q = req.query;
 	fs.unlink(__dirname + "/data/" + q.file, function (err){
 		if(err)
