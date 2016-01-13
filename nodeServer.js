@@ -3,7 +3,9 @@ var fs = require('fs');
 
 var app = express();
 
-app.get('/downloads', function(req, res){
+app.use(express.static(__dirname + "/public"));
+
+app.get('/getFileList', function(req, res){
 	var foo = fs.readdirSync(__dirname + "/data");
 	res.send(foo);
 
